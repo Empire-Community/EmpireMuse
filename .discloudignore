@@ -17,9 +17,11 @@ venv/
 .idea/
 .vscode/
 
-# Testes automatizados e documentacao
+# Testes automatizados, documentacao e arquivos estaticos pesados (preserva assets/brand/ para rota de marca)
 tests/
 docs/
+assets/*
+!assets/brand/
 .pytest_cache/
 .ruff_cache/
 .mypy_cache/
